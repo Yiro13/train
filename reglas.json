@@ -1,0 +1,26 @@
+{
+    "rules": [
+        { "id": 1, "premise": "U1 = green", "conclusion": "L1 = red" },
+        { "id": 2, "premise": "U6 = green", "conclusion": "L6 = red" },
+        { "id": 3, "premise": "S1 = busy", "conclusion": "U2 = red" },
+        { "id": 4, "premise": "S2 = busy", "conclusion": "L2 = red" },
+        { "id": 5, "premise": "S3 = busy", "conclusion": "U3 = red" },
+        { "id": 6, "premise": "S3 = busy", "conclusion": "U4 = red" },
+        { "id": 7, "premise": "S4 = busy", "conclusion": "U5 = red" },
+        { "id": 8, "premise": "S5 = busy", "conclusion": "L5 = red" },
+        { "id": 9, "premise": "(U3 = red ∧ L3 = red) ∨ (U5 = red ∧ L5 = red)", "conclusion": "U1 = red" },
+        { "id": 10, "premise": "(U3 = red ∧ L3 = red) ∨ (U5 = red ∧ L5 = red)", "conclusion": "L1 = red" },
+        { "id": 11, "premise": "(U2 = red ∧ L2 = red) ∨ (U4 = red ∧ L4 = red)", "conclusion": "U6 = red" },
+        { "id": 12, "premise": "(U2 = red ∧ L2 = red) ∨ (U4 = red ∧ L4 = red)", "conclusion": "L6 = red" },
+        { "id": 13, "premise": "U2 = red ∧ L2 = red", "conclusion": "U7 = red" },
+        { "id": 14, "premise": "U5 = red ∧ L5 = red", "conclusion": "U8 = red" },
+        { "id": 15, "premise": "U3 = green", "conclusion": "U4 = green" },
+        { "id": 16, "premise": "L3 = green", "conclusion": "L4 = green" },
+        { "id": 17, "premise": "U2 = green", "conclusion": "L2 = red" },
+        { "id": 18, "premise": "U3 = green", "conclusion": "L3 = red" },
+        { "id": 19, "premise": "U4 = green", "conclusion": "L4 = red" },
+        { "id": 20, "premise": "U5 = green", "conclusion": "L5 = red" },
+        { "id": 21, "premise": "U1 = green ∨ L1 = green", "conclusion": "U7 = red" },
+        { "id": 22, "premise": "U6 = green ∨ L6 = green", "conclusion": "U8 = red" }
+    ]
+}  

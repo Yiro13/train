@@ -1,0 +1,30 @@
+{
+    "rules": [
+        { "id": 1, "operator": "AND", "premises": ["U1 = green"], "conclusion": "L1 = red" },
+        { "id": 2, "operator": "AND", "premises": ["U6 = green"], "conclusion": "L6 = red" },
+        { "id": 3, "operator": "AND", "premises": ["S1 = busy"], "conclusion": "U2 = red" },
+        { "id": 4, "operator": "AND", "premises": ["S2 = busy"], "conclusion": "L2 = red" },
+        { "id": 5, "operator": "AND", "premises": ["S3 = busy"], "conclusion": "U3 = red" },
+        { "id": 6, "operator": "AND", "premises": ["S3 = busy"], "conclusion": "U4 = red" },
+        { "id": 7, "operator": "AND", "premises": ["S4 = busy"], "conclusion": "U5 = red" },
+        { "id": 8, "operator": "AND", "premises": ["S5 = busy"], "conclusion": "L5 = red" },
+
+        { "id": 9, "operator": "OR", "premises": [["U3 = red", "L3 = red"], ["U5 = red", "L5 = red"]], "conclusion": "U1 = red" },
+        { "id": 10, "operator": "OR", "premises": [["U3 = red", "L3 = red"], ["U5 = red", "L5 = red"]], "conclusion": "L1 = red" },
+        { "id": 11, "operator": "OR", "premises": [["U2 = red", "L2 = red"], ["U4 = red", "L4 = red"]], "conclusion": "U6 = red" },
+        { "id": 12, "operator": "OR", "premises": [["U2 = red", "L2 = red"], ["U4 = red", "L4 = red"]], "conclusion": "L6 = red" },
+
+        { "id": 13, "operator": "AND", "premises": ["U2 = red", "L2 = red"], "conclusion": "U7 = red" },
+        { "id": 14, "operator": "AND", "premises": ["U5 = red", "L5 = red"], "conclusion": "U8 = red" },
+
+        { "id": 15, "operator": "AND", "premises": ["U3 = green"], "conclusion": "U4 = green" },
+        { "id": 16, "operator": "AND", "premises": ["L3 = green"], "conclusion": "L4 = green" },
+        { "id": 17, "operator": "AND", "premises": ["U2 = green"], "conclusion": "L2 = red" },
+        { "id": 18, "operator": "AND", "premises": ["U3 = green"], "conclusion": "L3 = red" },
+        { "id": 19, "operator": "AND", "premises": ["U4 = green"], "conclusion": "L4 = red" },
+        { "id": 20, "operator": "AND", "premises": ["U5 = green"], "conclusion": "L5 = red" },
+
+        { "id": 21, "operator": "OR", "premises": ["U1 = green", "L1 = green"], "conclusion": "U7 = red" },
+        { "id": 22, "operator": "OR", "premises": ["U6 = green", "L6 = green"], "conclusion": "U8 = red" }
+    ]
+}
